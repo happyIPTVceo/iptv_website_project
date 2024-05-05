@@ -1,0 +1,115 @@
+
+
+/* General HTML and Body Styles */
+html, body {
+
+    height: 100%;
+    min-height: 100vh;
+
+    margin: 0 auto;
+
+    background: linear-gradient(to bottom, #212529 0%, #495057 100%);
+    background-attachment: fixed; /* Keep the background fixed during scrolling */
+
+    color: #FFF;
+}
+
+
+
+body {
+    color: var(--bs-light);
+}
+
+
+
+
+.master-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px rgba(108, 117, 125, 1) !important;
+    border-radius: 25px !important;
+
+    background-color: var(--bs-dark);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+
+
+
+.main-container {
+    max-width: 1400px; /* Maximum width of 1400px */
+    min-width: 320px; /* Minimum width for small phone size */
+    background-color: #212529; /* Bootstrap's dark theme background color */
+    border: 1px solid #adb5bd; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    color: #fff; /* Text color */
+    padding: 20px; /* Add some padding for spacing */
+
+    margin: auto; /* Center the main content horizontally */
+}
+
+.container-fluid {
+    
+    padding: 20px; /* Add padding inside the container */
+    margin-bottom: 20px; /* Add margin between containers */
+}
+  
+
+
+/* Additional CSS for the image */
+.banner-img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Center the image */
+    margin: auto; /* Center the image horizontally */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 20px; /* Add some space below the image */
+}
+
+.min-width-100 {
+    min-width: 100% !important;
+}
+
+
+/* ************************************************* */
+/* ----- --- Extras settings & adjustments --- ----- */
+/* ************************************************* */
+.border-radius-15 {
+    border-radius: 15px;
+}
+
+.btn-dark {
+    border-radius: 15px !important;
+}
+
+.btn-outline-dark {
+    border-radius: 15px !important;
+}
+
+.card {
+    box-shadow: 0 0 10px rgba(108, 117, 125, 1); /* Subtle shadow for depth */
+}
+
+/* Some greyish colors  */
+.grey500 {
+    background-color: var(--bs-gray-500);
+}
+
+.grey600 {
+    background-color: var(--bs-gray-600);
+}
+
+.grey700 {
+    background-color: var(--bs-gray-700);
+}
+
+.grey800 {
+    background-color: var(--bs-gray-800);
+}
+
