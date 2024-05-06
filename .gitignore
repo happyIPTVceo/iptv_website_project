@@ -1,3 +1,25 @@
+
+
+
+
+# ----------------------------------- ################ ----------------------------------- #
+# Very importand to ignore the large mp4 and avi files in this repository so they do not get
+# staged and tried for commit. Because then we get a large file error and it's really hard
+# to get past it and fix this error and staging of the files. So best is to ignore them !!!
+
+# Discard and not stage .mp4 files and .avi files and .zip files and .rar files
+*.mp4
+*.avi
+*.zip
+*.rar
+# ----------------------------------- ################ ----------------------------------- #
+
+
+
+
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
